@@ -13,11 +13,11 @@ Attendance Checker - это приложение для отслеживания
 
 | Скриншот 1                                                                                          | Скриншот 2                                                                                               |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| ![workers_search](https://github.com/shaharex/Attendance-Checker/assets/155885618/57bfb56e-3851-4c29-8504-2219ebf1fb3b) | ![workers_main_added](https://github.com/shaharex/Attendance-Checker/assets/155885618/1e2fe4df-6dde-4cbb-bc1a-08f0421399e9) |
+| ![workers_main](https://github.com/shaharex/Attendance-Checker/assets/155885618/463bbd45-9289-4aa2-a831-598af8033ea9) | ![worker_add](https://github.com/shaharex/Attendance-Checker/assets/155885618/953f63a6-fc4a-45e4-aaa7-91995dd249bc) |
 | Скриншот 3                                                                                          | Скриншот 4                                                                                               |
-| ![exit_page](https://github.com/shaharex/Attendance-Checker/assets/155885618/a1ee34ba-8df5-4b4f-a075-21b1203affd6) | ![workers_main](https://github.com/shaharex/Attendance-Checker/assets/155885618/463bbd45-9289-4aa2-a831-598af8033ea9) |
+| ![worker_add_filled](https://github.com/shaharex/Attendance-Checker/assets/155885618/bedcdc82-c542-4fd0-88bf-22b80b7ad9aa) | ![workers_search](https://github.com/shaharex/Attendance-Checker/assets/155885618/57bfb56e-3851-4c29-8504-2219ebf1fb3b) |
 | Скриншот 5                                                                                          | Скриншот 6                                                                                               |
-| ![worker_add_filled](https://github.com/shaharex/Attendance-Checker/assets/155885618/bedcdc82-c542-4fd0-88bf-22b80b7ad9aa) | ![worker_add](https://github.com/shaharex/Attendance-Checker/assets/155885618/953f63a6-fc4a-45e4-aaa7-91995dd249bc) |
+| ![workers_main_added](https://github.com/shaharex/Attendance-Checker/assets/155885618/1e2fe4df-6dde-4cbb-bc1a-08f0421399e9) | ![exit_page](https://github.com/shaharex/Attendance-Checker/assets/155885618/a1ee34ba-8df5-4b4f-a075-21b1203affd6) |
 | Скриншот 7                                                                                          | Скриншот 8                                                                                               |
 | ![enter_search](https://github.com/shaharex/Attendance-Checker/assets/155885618/56012bc1-d221-40b8-9a8c-6a7dd9f581c8) | ![enter_page](https://github.com/shaharex/Attendance-Checker/assets/155885618/cc325935-a7d3-485a-936c-27b86feccb5f) |
 
