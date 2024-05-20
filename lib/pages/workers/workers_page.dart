@@ -106,38 +106,29 @@ class _WorkersPageState extends State<WorkersPage> {
           horizontal: 20,
           vertical: 10,
         ),
-        child: SingleChildScrollView(
-          child: Column(
-            children: [
-              const SizedBox(
-                height: 20,
+        child: _foundUsers.isNotEmpty
+            ? ListView.separated(
+                separatorBuilder: (context, index) {
+                  print(DateTime.now());
+                  return const SizedBox(
+                    height: 10,
+                  );
+                },
+                shrinkWrap: true,
+                itemCount: _foundUsers.length,
+                itemBuilder: (context, index) {
+                  final itemOf = _foundUsers[index];
+                  return WorkerTile(
+                    name: itemOf[0],
+                    id: itemOf[1],
+                    job: itemOf[2],
+                    number: itemOf[3],
+                  );
+                },
+              )
+            : const Center(
+                child: Text('No results found'),
               ),
-              _foundUsers.isNotEmpty
-                  ? ListView.separated(
-                      separatorBuilder: (context, index) {
-                        print(DateTime.now());
-                        return const SizedBox(
-                          height: 10,
-                        );
-                      },
-                      shrinkWrap: true,
-                      itemCount: _foundUsers.length,
-                      itemBuilder: (context, index) {
-                        final itemOf = _foundUsers[index];
-                        return WorkerTile(
-                          name: itemOf[0],
-                          id: itemOf[1],
-                          job: itemOf[2],
-                          number: itemOf[3],
-                        );
-                      },
-                    )
-                  : const Center(
-                      child: Text('No results found'),
-                    ),
-            ],
-          ),
-        ),
       ),
       floatingActionButton: ElevatedButton(
         onPressed: () {
