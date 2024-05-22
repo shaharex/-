@@ -95,6 +95,7 @@ class _EnterTimePageState extends State<EnterTimePage> {
           Container(
             padding: const EdgeInsets.only(left: 10),
             decoration: BoxDecoration(
+              color: Colors.white,
               border: Border.all(
                 color: Colors.black,
                 style: BorderStyle.solid,
